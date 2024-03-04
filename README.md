@@ -9,7 +9,7 @@ Text-to-SQL, which involves translating natural language into Structured Query L
 
 ## Datasets
 
-As part of the study, we curate three different datasets which can all be found in the /datasets folder: 
+As part of the study, we curate three different datasets which can all be found in the `/datasets` folder: 
 
 1. `financial.json` The original financial domain of BIRD-Bench
 2. `financial_corrected.json` The financial domain where the erroneous or noisy questions and SQL queries has been corrected
