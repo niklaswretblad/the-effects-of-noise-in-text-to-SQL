@@ -1,6 +1,6 @@
 ![](figures/model_results.png?raw=true)
 
-# Understanding-the-effects-of-noise-in-text-to-SQL
+# Understanding-the-effects-of-noise-in-text-to-SQL: An Examination of the BIRD-Bench Benchmark
 Code for the paper "Understanding the Effects of Noise in Text-to-SQL: An Examination of the BIRD-Bench Benchmark".
 
 ## Abstract & Overview
