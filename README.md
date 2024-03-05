@@ -20,11 +20,22 @@ On it's way...
 
 ## Prerequisites
 
+Install the prerequities: 
+
+´´´
+pip install -r requirements.txt
+´´´
+
+Set the OPEN_AI environment variable: 
+
+```
+export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
+```
 
 
 ## Running the code
 
-This directory contains implementations of the zero-shot model and the DIN-SQL model used in the experiments. For the MAC-SQL model, we instead refer to the projects own repository which can be found [here](https://github.com/wbbeyourself/MAC-SQL), and the datasets found in the `/datasets` folder.
+Only implementations of the zero-shot model and the DIN-SQL model used in the experiments can be found in this repository. For the MAC-SQL model, we instead refer to the models own repository which can be found [here](https://github.com/wbbeyourself/MAC-SQL), and the datasets found in the `/datasets` folder.
 
 Use the following command format to run a model:
 
