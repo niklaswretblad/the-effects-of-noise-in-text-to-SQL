@@ -22,16 +22,17 @@ On it's way...
 
 ## Running the code
 
-This directory contains implementations of the zero-shot model and the DIN-SQL model used in the experiments. For the MAC-SQL model, we instead refer to the projects own repository which can be found [here](https://github.com/wbbeyourself/MAC-SQL).
+This directory contains implementations of the zero-shot model and the DIN-SQL model used in the experiments. For the MAC-SQL model, we instead refer to the projects own repository which can be found [here](https://github.com/wbbeyourself/MAC-SQL), and the datasets found in the `/datasets` folder.
 
-Use the following command format to run the script:
+Use the following command format to run a model:
 
 ```
-python script_name.py [--model MODEL_NAME] [--dataset DATASET_NAME] [--llm LLM_NAME]
+python run_model.py [--model MODEL_NAME] [--dataset DATASET_NAME] [--llm LLM_NAME]
 ```
 
 `--model ` sets which of the two models to use. The available options are `zero_shot` and `din_sql`
 `--dataset ` sets which of the datasets to use. The available options are `financial`, `financial_corrected` and `financial_corrected_sql`
+`--llm ` sets which of the openAI LLMs to use. See [here](https://platform.openai.com/docs/models/overview) for the available models. 
 
 
 ## Citation
