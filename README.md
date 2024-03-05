@@ -1,6 +1,6 @@
 ![](figures/model_results.png?raw=true)
 
-# Introduction
+## Introduction
 
 This is the official repository for the paper ["Understanding the Effects of Noise in Text-to-SQL: An Examination of the BIRD-Bench Benchmark"](https://arxiv.org/abs/2402.12243).
 
