@@ -25,6 +25,7 @@ On it's way...
 
 ## Citation
 
+Bibtex:
 ```
 @misc{wretblad2024understanding,
       title={Understanding the Effects of Noise in Text-to-SQL: An Examination of the BIRD-Bench Benchmark}, 
