@@ -1,11 +1,8 @@
 ![](figures/model_results.png?raw=true)
 
 # Understanding the effects of noise in text-to-SQL: An Examination of the BIRD-Bench Benchmark
-Code for the paper "Understanding the Effects of Noise in Text-to-SQL: An Examination of the BIRD-Bench Benchmark".
 
-## Abstract & Overview
-
-Text-to-SQL, which involves translating natural language into Structured Query Language (SQL), is crucial for enabling broad access to structured databases without  expert knowledge. However, designing models for such tasks is challenging due to numerous factors, including the presence of 'noise,' such as ambiguous questions and syntactical errors. This study provides an in-depth analysis of the distribution and types of noise in the widely used BIRD-Bench benchmark and the impact of noise on models. While BIRD-Bench was created to model dirty and noisy database values, it was not created to contain noise and errors in the questions and gold queries. We found that noise in questions and gold queries are prevalent in the dataset, with varying amounts across domains, and with an uneven distribution between noise types. The presence of incorrect gold SQL queries, which then generate incorrect gold answers, has a significant impact on the benchmark's reliability. Surprisingly, when evaluating models on corrected SQL queries, zero-shot baselines surpassed the performance of state-of-the-art prompting methods. We conclude that informative noise labels and reliable benchmarks are crucial to developing new Text-to-SQL methods that can handle varying types of noise.
+This is the official repository for the paper ["Understanding the Effects of Noise in Text-to-SQL: An Examination of the BIRD-Bench Benchmark"](https://arxiv.org/abs/2402.12243).
 
 ## Datasets
 
@@ -19,9 +16,23 @@ As part of the study, we curate three different datasets which can all be found 
 
 On it's way... 
 
-## Run Instructions
+## Prerequisites
 
-On it's way... 
+
+
+## Running the code
+
+This directory contains implementations of the zero-shot model and the DIN-SQL model used in the experiments. For the MAC-SQL model, we instead refer to the projects own repository which can be found [here](https://github.com/wbbeyourself/MAC-SQL).
+
+Use the following command format to run the script:
+
+```
+python script_name.py [--model MODEL_NAME] [--dataset DATASET_NAME] [--llm LLM_NAME]
+```
+
+`--model ` sets which of the two models to use. The available options are `zero_shot` and `din_sql`
+`--dataset ` sets which of the datasets to use. The available options are `financial`, `financial_corrected` and `financial_corrected_sql`
+
 
 ## Citation
 
