@@ -15,10 +15,13 @@ As part of the study, we curate three different datasets which can all be found 
 2. `financial_corrected.json` A version of the financial domain where noise has been removed from both questions and SQL queries
 3. `financial_corrected_sql.json` A version of the financial domain where only noise in the SQL queries has been removed
 
+## Annotations
+
+On it's way... 
+
 ## Run Instructions
 
-To be continued...
-
+On it's way... 
 
 ## Citation
 
