@@ -22,7 +22,7 @@ To be continued...
 
 ## Citation
 
-`
+```
 @misc{wretblad2024understanding,
       title={Understanding the Effects of Noise in Text-to-SQL: An Examination of the BIRD-Bench Benchmark}, 
       author={Niklas Wretblad and Fredrik Gordh Riseby and Rahul Biswas and Amin Ahmadi and Oskar Holmström},
@@ -31,4 +31,4 @@ To be continued...
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
-`
+```
