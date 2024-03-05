@@ -20,11 +20,11 @@ On it's way...
 
 ## Prerequisites
 
-Install the prerequities: 
+Install the dependencies: 
 
-´´´
+```
 pip install -r requirements.txt
-´´´
+```
 
 Set the OPEN_AI environment variable: 
 
