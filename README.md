@@ -26,7 +26,7 @@ Install the dependencies:
 pip install -r requirements.txt
 ```
 
-Set the OPEN_AI environment variable: 
+Set the OPENAI_API_KEY environment variable: 
 
 ```
 export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
