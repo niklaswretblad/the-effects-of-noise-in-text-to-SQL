@@ -16,7 +16,9 @@ As part of the study, we curate three different datasets which can all be found 
 
 ## Annotations
 
-On it's way... 
+The finalized and between the two annotators agreed annotations and corrections can be found in the `/annotations` folder. There are separate files for the annotations of the 106 data points in the financial domain and the sampled data points from the other domains (california_schools, superhero, thrombosis_prediction, toxicology). 20 data points were sampled from each of those domains. There are an excel version and a csv version of each file, where the csv file displays as a table directly in the github interface for quick viewing. 
+
+The identified errors were grouped based on similarity and named after the errors’ common properties. The annotated categories can be seen in the table below. 
 
 ## Prerequisites
 
