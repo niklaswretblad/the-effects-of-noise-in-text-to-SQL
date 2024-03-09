@@ -4,11 +4,11 @@
 
 This is the official repository for the paper ["Understanding the Effects of Noise in Text-to-SQL: An Examination of the BIRD-Bench Benchmark"](https://arxiv.org/abs/2402.12243).
 
-We found that the popular BIRD-Bench text-to-SQL dataset and benchmark contains a lot of noise, and investigate the effect of noise on model performance. The presence of incorrect gold SQL queries, which then generate incorrect gold answers, has a significant impact on the benchmark's reliability. Surprisingly, when evaluating models on corrected SQL queries, zero-shot baselines surpassed the performance of state-of-the-art prompting methods as can be seen in the above picture. We conclude that informative noise labels and reliable benchmarks are crucial to developing new Text-to-SQL methods that can handle varying types of noise.
+We found that the popular BIRD-Bench text-to-SQL dataset and benchmark contains a lot of noise (both in the questions and gold SQL queries), and investigate the effect of noise on model performance. The presence of incorrect gold SQL queries, which then generate incorrect gold answers, has a significant impact on the benchmark's reliability. Surprisingly, when evaluating models on corrected SQL queries, zero-shot baselines surpassed the performance of state-of-the-art prompting methods as can be seen in the above picture. We conclude that informative noise labels and reliable benchmarks are crucial to developing new Text-to-SQL methods that can handle varying types of noise.
 
 ## Datasets
 
-As part of the study, we curate three different datasets which can all be found in the `/datasets` folder: 
+As part of the study, we curate three different datasets which can all be found in the `/datasets` folder based on the found errors and annotations: 
 
 1. `financial.json` The original financial domain of BIRD-Bench, which consists of 106 question and SQL query pairs. 
 2. `financial_corrected.json` A version of the financial domain where noise has been removed from both questions and SQL queries
