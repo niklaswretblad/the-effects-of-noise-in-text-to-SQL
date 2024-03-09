@@ -16,9 +16,32 @@ As part of the study, we curate three different datasets which can all be found 
 
 ## Annotations
 
-The finalized and between the two annotators agreed annotations and corrections can be found in the `/annotations` folder. There are separate files for the annotations of the 106 data points in the financial domain and the sampled data points from the other domains (california_schools, superhero, thrombosis_prediction, toxicology). 20 data points were sampled from each of those domains. There are an excel version and a csv version of each file, where the csv file displays as a table directly in the github interface for quick viewing. 
+The finalized and between the two annotators agreed annotations and corrections can be found in the `/annotations` folder. There are separate files for the annotations of the 106 data points in the financial domain and the sampled data points from the other domains (california_schools, superhero, thrombosis_prediction, toxicology). 20 data points were sampled from each of those domains. There are an excel version and a csv version of each file, where the csv file displays as a table directly in the github interface for quick viewing. There is also an UML diagram of the database schema of the database in the financial domain to help understanding the corrections and annotations. 
 
 The identified errors were grouped based on similarity and named after the errors’ common properties. The annotated categories can be seen in the table below. 
+
+### Table 1: Statistics of the total amount of data points that contains errors and the amount of errors in questions and gold queries across five datasets.
+
+| **Statistic** | **Financial** | **California Schools** | **Superhero** | **Toxicology** | **Thrombosis Prediction** |
+|---------------|---------------|------------------------|---------------|----------------|---------------------------|
+| Data points with noise | 52/106 (49%) | 9/20 (45%) | 3/20 (15%) | 7/20 (35%) | 8/20 (40%) |
+| Noisy questions | 44/106 (41.5%) | 5/20 (25%) | 2/20 (10%) | 6/20 (30%) | 3/20 (15%) |
+| Erroneous gold queries | 22/106 (20.7%) | 8/20 (40%) | 1/20 (5%) | 2/20 (10%) | 6/20 (30%) |
+
+
+### Table 2: Distribution of different types of noise encountered in the domains.
+
+| **Noise Type** | **Financial** | **California Schools** | **Superhero** | **Toxicology** | **Thrombosis Prediction** |
+|----------------|---------------|------------------------|---------------|----------------|---------------------------|
+| Spelling/Syntactical Errors | 23 | 2 | 1 | 4 | 2 |
+| Vague/Ambiguous Questions | 17 | 1 | 1 | 1 | 1 |
+| Incorrect SQL | 22 | 8 | 1 | 2 | 6 |
+| Synonyms | 2 | 0 | 0 | 0 | 0 |
+| String Capitalization | 7 | 0 | 0 | 0 | 0 |
+| Question does not map to DB | 1 | 4 | 1 | 0 | 0 |
+| **Total number of errors** | **72** | **15** | **4** | **7** | **9** |
+
+
 
 ## Prerequisites
 
