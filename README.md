@@ -16,11 +16,11 @@ As part of the study, we curate three different datasets which can all be found 
 
 ## Annotations
 
-The finalized and between the two annotators agreed annotations and corrections can be found in the `/annotations` folder. There are separate files for the annotations of the 106 data points in the financial domain and the sampled data points from the other domains (california_schools, superhero, thrombosis_prediction, toxicology). 20 data points were sampled from each of those domains. There are an excel version and a csv version of each file, where the csv file displays as a table directly in the github interface for quick viewing. There is also an UML diagram of the database schema of the database in the financial domain to help understanding the corrections and annotations. 
+The finalized and between the two annotators agreed annotations and corrections can be found in the `/annotations` folder. There are separate files for the annotations of the 106 data points in the financial domain and the sampled data points from the other domains (california_schools, superhero, thrombosis_prediction, toxicology). 20 data points were sampled from each of those domains. There are an excel version and a csv version of each file, where the csv file displays as a table directly in the github interface for quick viewing. There is also an UML diagram of the database schema of the database from the financial domain to help understanding the corrections and annotations. 
 
-The identified errors were grouped based on similarity and named after the errors’ common properties. The annotated categories can be seen in the table below. 
+Statistics over the found noise and errors can be seen in the table below. Table 1 contains an overview of the noise found in each domains. The identified errors were further grouped based on similarity and named after the errors’ common properties. The annotated categories can be seen in table 2 below.
 
-### Table 1: Statistics of the total amount of data points that contains errors and the amount of errors in questions and gold queries across five datasets.
+#### Table 1: Statistics of the total amount of data points that contains errors and the amount of errors in questions and gold queries across five datasets.
 
 | **Statistic** | **Financial** | **California Schools** | **Superhero** | **Toxicology** | **Thrombosis Prediction** |
 |---------------|---------------|------------------------|---------------|----------------|---------------------------|
@@ -29,7 +29,7 @@ The identified errors were grouped based on similarity and named after the error
 | Erroneous gold queries | 22/106 (20.7%) | 8/20 (40%) | 1/20 (5%) | 2/20 (10%) | 6/20 (30%) |
 
 
-### Table 2: Distribution of different types of noise encountered in the domains.
+#### Table 2: Distribution of different types of noise encountered in the domains.
 
 | **Noise Type** | **Financial** | **California Schools** | **Superhero** | **Toxicology** | **Thrombosis Prediction** |
 |----------------|---------------|------------------------|---------------|----------------|---------------------------|
