@@ -14,7 +14,7 @@ As part of the study, we curate three different datasets which can all be found 
 2. `financial_corrected.json` A version of the financial domain where noise has been removed from both questions and SQL queries
 3. `financial_corrected_sql.json` A version of the financial domain where only noise in the SQL queries has been removed
 
-## Annotations
+## Annotations & Corrections
 
 The finalized and between the two annotators agreed annotations and corrections can be found in the `/annotations` folder. There are separate files for the annotations of the 106 data points in the financial domain and the sampled data points from the other domains (california_schools, superhero, thrombosis_prediction, toxicology). 20 data points were sampled from each of those domains. There are an excel version and a csv version of each file, where the csv file displays as a table directly in the github interface for quick viewing. There is also an UML diagram of the database schema of the database from the financial domain to help understanding the corrections and annotations. 
 
