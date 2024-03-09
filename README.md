@@ -16,9 +16,9 @@ As part of the study, we curate three different datasets which can all be found 
 
 ## Annotations & Corrections
 
-The finalized and between the two annotators agreed annotations and corrections can be found in the `/annotations` folder. There are separate files for the annotations of the 106 data points in the financial domain and the sampled data points from the other domains (california_schools, superhero, thrombosis_prediction, toxicology). 20 data points were sampled from each of those domains. There are an excel version and a csv version of each file, where the csv file displays as a table directly in the github interface for quick viewing. There is also an UML diagram of the database schema of the database from the financial domain to help understanding the corrections and annotations. 
+The finalized annotations and corrections agreed upon by the annotators are in the /annotations folder. It includes files for 106 financial data points and 20 sampled points from other domains (california_schools, superhero, thrombosis_prediction, toxicology) in both Excel and CSV formats. The CSV files can be viewed directly on GitHub. Additionally, there's a UML database schema diagram for the financial domain to aid in understanding the annotations.
 
-Statistics over the found noise and errors can be seen in the table below. Table 1 contains an overview of the noise found in each domains. The identified errors were further grouped based on similarity and named after the errors’ common properties. The annotated categories can be seen in table 2 below.
+Statistics over the found noise and errors can be seen in the tables below. 
 
 #### Table 1: Statistics of the total amount of data points that contains errors and the amount of errors in questions and gold queries across five datasets.
 
