@@ -30,7 +30,7 @@ The finalized annotations and corrections agreed upon by the annotators are in t
 
 Statistics over the found noise and errors can be seen in the tables below. 
 
-#### Table 1: Statistics of the total amount of data points that contains errors and the amount of errors in questions and gold queries across five datasets.
+#### Table 1: Statistics of the total amount of data points that contains errors and the amount of errors in questions and gold queries across five domains.
 
 | **Statistic** | **Financial** | **California Schools** | **Superhero** | **Toxicology** | **Thrombosis Prediction** |
 |---------------|---------------|------------------------|---------------|----------------|---------------------------|
