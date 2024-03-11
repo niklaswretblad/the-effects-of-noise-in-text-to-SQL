@@ -9,7 +9,7 @@ We found that the popular BIRD-Bench text-to-SQL dataset and benchmark contains 
 
 ## Datasets
 
-As part of the study, we curate three different datasets which can all be found in the `/datasets` folder based on the found errors and annotations: 
+As part of the study, we curate three different datasets which can all be found in the `/datasets` folder based on the identified errors and annotations: 
 
 1. `financial.json` The original financial domain of BIRD-Bench, which consists of 106 question and SQL query pairs. 
 2. `financial_corrected.json` A version of the financial domain where noise has been removed from both questions and SQL queries.
