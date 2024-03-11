@@ -17,7 +17,7 @@ As part of the study, we curate three different datasets which can all be found 
 
 ## Annotations & Corrections
 
-The finalized annotations and corrections agreed upon by the annotators are in the `/annotations` folder. It includes files for the 106 financial data points and 20 sampled points from the other domains (california_schools, superhero, thrombosis_prediction, toxicology) in both Excel and CSV formats. The CSV files can be viewed directly on GitHub. Additionally, there's a UML database schema diagram for the financial domain to aid in understanding the annotations. The annotations where made according to the following categories: 
+The finalized annotations and corrections agreed upon by the annotators are in the `/annotations` folder. It includes files for the 106 financial data points and 20 sampled points from each of the other domains (california_schools, superhero, thrombosis_prediction, toxicology) in both Excel and CSV formats. The CSV files can be viewed directly on GitHub. Additionally, there's a UML database schema diagram for the financial domain to aid in understanding the annotations. The annotations where made according to the following categories: 
 
 | Category                    | Annotation |
 |-----------------------------|------------|
