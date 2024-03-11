@@ -19,6 +19,15 @@ As part of the study, we curate three different datasets which can all be found 
 
 The finalized annotations and corrections agreed upon by the annotators are in the `/annotations` folder. It includes files for the 106 financial data points and 20 sampled points from other domains (california_schools, superhero, thrombosis_prediction, toxicology) in both Excel and CSV formats. The CSV files can be viewed directly on GitHub. Additionally, there's a UML database schema diagram for the financial domain to aid in understanding the annotations.
 
+| Category                    | Annotation |
+|-----------------------------|------------|
+| Spelling/Syntactical error  | 1          |
+| Vague/Ambiguous Questions   | 2          |
+| Incorrect SQL               | 3          |
+| Synonyms                    | 4          |
+| String Capitalization       | 5          |
+| Question does not map to DB | 6          |
+
 Statistics over the found noise and errors can be seen in the tables below. 
 
 #### Table 1: Statistics of the total amount of data points that contains errors and the amount of errors in questions and gold queries across five datasets.
