@@ -2,7 +2,7 @@
 
 ## Updates
 
-- **2024-05-15:** Our paper got accepted into ACL 2024 main!!! 🔥
+- **2024-05-15:** The paper got accepted into ACL 2024 main! 🎉
 
 ## Introduction
 
