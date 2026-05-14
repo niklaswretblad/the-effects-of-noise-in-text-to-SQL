@@ -1,9 +1,9 @@
 
 
-from models.zero_shot import ZeroShotModel
+from src.models.zero_shot import ZeroShotModel
 import re
 from typing import List, Tuple
-from utils.timer import Timer
+from src.timer import Timer
 from langchain.callbacks import get_openai_callback
 from langchain.chains import LLMChain
 from langchain.prompts import (

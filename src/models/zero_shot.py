@@ -2,7 +2,7 @@
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.callbacks import get_openai_callback
-from models.base_model import BaseModel
+from src.models.base_model import BaseModel
 from src.timer import Timer
 import logging
 
